@@ -8,7 +8,7 @@ import { RouterModule } from '@angular/router';
 import { CommonComponent } from './common/common.component'
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatButtonModule, MatInputModule} from '@angular/material';
-
+import { HttpModule } from '@angular/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,6 +18,7 @@ import {MatButtonModule, MatInputModule} from '@angular/material';
   ],
   imports: [
     BrowserModule,
+    HttpModule,
     FormsModule,
     BrowserAnimationsModule,
     MatButtonModule,
